@@ -1,0 +1,12 @@
+{
+  "name": "epam-tasks",
+  "version": "1.0.0",
+  "description": "Tasks For Epam JavaScript Course",
+  "main": "index.js",
+  "author": {"name": "Giorgi Shakiashvili", "email": "giorgi.shakiashvili@epam.com"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
