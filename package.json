@@ -3,10 +3,26 @@
   "version": "1.0.0",
   "description": "Tasks For Epam JavaScript Course",
   "main": "index.js",
-  "author": {"name": "Giorgi Shakiashvili", "email": "giorgi.shakiashvili@epam.com"},
+  "author": {
+    "name": "Giorgi Shakiashvili",
+    "email": "giorgi.shakiashvili@epam.com"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "lint": "eslint ./ --fix",
+    "coverage": "c8 npm test"
   },
   "keywords": [],
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0"
+  },
+  "dependencies": {
+    "c8": "^12.0.0",
+    "chai": "^4.5.0",
+    "mocha": "^12.0.3",
+    "mochawesome": "^8.1.1"
+  }
 }
